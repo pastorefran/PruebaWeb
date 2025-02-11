@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Sitio{% endblock %}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
+        header { background: #007bff; color: white; padding: 10px; text-align: center; }
+        footer { background: #ddd; padding: 10px; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+
+    <main>
+        {% block content %} {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Mi Portafolio</p>
+    </footer>
+</body>
+</html>

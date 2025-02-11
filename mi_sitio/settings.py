@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-3rqt1g@n)kfnyzn)7751_2yb#@fs24(x*5clgnh)jr2zdx*xa&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
-# Application definition
+ALLOWED_HOSTS = ['pruebaweb-rdw3.onrender.com' , '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
